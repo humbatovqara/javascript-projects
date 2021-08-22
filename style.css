@@ -1,3 +1,13 @@
+/*
+    Font
+*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+
+/* 
+    Global Styles
+*/
 * {
     margin: 0;
     padding: 0;
@@ -5,12 +15,77 @@
 }
 
 body {
-    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+/*
+    Nav
+*/
+nav {
+    height: 50px;
 
     display: flex;
-    flex-direction: column;
+    align-items: center;
+
+    background-color: #fff;
+}
+
+.nav-content {
+    width: 1200px;
+    margin: auto;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-content h4 {
+    text-transform: capitalize;
+}
+
+.nav-links {
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 10px;
+}
+
+.nav-links a {
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 1rem;
+    color: rgb(1, 2, 63);
+}
+
+.nav-links a:hover {
+    color: #007a99;
+}
+
+
+
+/*
+    Main
+*/
+main {
+    display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    min-height: calc(100vh - 50px);
+}
+
+.container {
+    text-align: center;
 }
 
 .colorTitle {
@@ -27,11 +102,15 @@ body {
     padding: 10px 16px;
 
     background-color: transparent;
-    color: #000;
+    color: rgb(0, 0, 0);
 
     border-radius: 10px;
     border-width: 2px;
 
     text-transform: uppercase;
     font-weight: bold;
+}
+
+.colorName {
+    color: #006a85;
 }
