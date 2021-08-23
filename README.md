@@ -1,3 +1,3 @@
 # counter-project
-JavaScript project for beginners (1 of 27)
-Counter project in JavaScript
+JavaScript project for beginners (2 of 27)<br />
+Src: freeCodeCamp
