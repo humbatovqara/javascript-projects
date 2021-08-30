@@ -1,4 +1,4 @@
 # responsive-navbar
-Responsive Navbar in Vanilla JavaScript
-JavaScript project for beginners (3 of 27)
-Src: freeCodeCamp
+Responsive Navbar in Vanilla JavaScript </br>
+JavaScript project for beginners (3 of 27) </br>
+Src: freeCodeCamp </br>
